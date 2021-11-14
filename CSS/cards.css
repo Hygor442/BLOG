@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;1,100&family=Open+Sans+Condensed:wght@300&family=Signika:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+footer{
+    background-color:#FF0A26;
+}
+footer h1{
+    text-align: center;
+    margin: 6rem 0 4rem 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 40px;
+    padding-top: 1rem;
+}
+.stars{
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 35px 40px;
+    border-radius: 10px 0;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.19);
+}
+.cards .user{
+    width: 100px;
+    margin-bottom: 15px;
+}

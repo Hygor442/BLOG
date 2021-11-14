@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;1,100&family=Open+Sans+Condensed:wght@300&family=Signika:wght@300&display=swap');
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+a:hover{
+    opacity: 1;
+}
+p, li{
+    font-family: 'Signika', sans-serif;
+    padding-left:10px;
+}
+h2, h3{
+    margin:1rem 5rem;
+    padding-top: 1rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-transform: capitalize;
+}
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans Condensed', sans-serif;;
+    background-color: #B6C9F0;
+}
+header picture{
+    margin-left:2rem;
+    padding: 1rem;
+    
+}
+header img{
+    width: 350px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+header li{
+    display: flex;
+    align-items: center;    
+}
+header li a:hover{
+    color: white;
+    background-color: rgba(29, 26, 26, 0.415);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    opacity: 8;
+}
+header li a{
+    margin: 5px;
+    text-transform: uppercase;
+    color: black;
+    padding: 1rem;
+    display: inline-block;
+}
+/*main*/
+main{
+    margin: 2rem 10rem;    
+    background:#D2D99A;
+    font-family: 'Bebas Neue', cursive;
+    text-align: justify;
+}
+main i{
+    font-size: 1.5rem;
+}
+.dieta{
+    margin: 2rem 5rem;
+    padding:0 1rem 0 1rem
+}
+.dieta ul{
+    list-style:disc;
+    padding-left: 2rem;
+}
+.dieta picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+.dieta img{
+    width: 350px;
+    border-radius: 8px 0;
+}
+
+.caloricos{
+    margin: 2rem 5rem;
+    padding:0 1rem 0 1rem
+}
+.caloricos picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+.caloricos img{
+    width: 350px;
+    height: 300px;
+    border-radius: 8px 0;
+    margin-left: 1rem;
+}
+.cha{
+    margin: 2rem 5rem;
+    padding:0 1rem 0 1rem
+}
+.cha picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+    padding-bottom: 1rem;
+}
+.cha img{
+    height: 200px;
+    width: 375px;
+    border-radius: 8px 0;
+}
+/*final*/
+.footer-final{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+}
+.footer-final a{
+margin: 5px 10px 
+}
+i{
+    color: black;
+    font-size: 2rem;
+    padding-left: 10px;
+}
+i:hover{
+    color:rgba(255, 0, 0, 0.523);
+}
