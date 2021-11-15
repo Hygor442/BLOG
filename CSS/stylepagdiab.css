@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;1,100&family=Open+Sans+Condensed:wght@300&family=Signika:wght@300&display=swap');
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+a:hover{
+    opacity: 1;
+}
+p, li{
+    font-family: 'Signika', sans-serif;
+    padding-left:10px;
+}
+h1,h2, h3{
+    margin:1rem 5rem;
+    padding-top: 1rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-transform: capitalize;
+}
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans Condensed', sans-serif;;
+    background-color: #B6C9F0;
+}
+header picture{
+    margin-left:2rem;
+    padding: 1rem;
+    
+}
+header img{
+    width: 350px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+header li{
+    display: flex;
+    align-items: center;    
+}
+header li a:hover{
+    color: white;
+    background-color: rgba(29, 26, 26, 0.415);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    opacity: 8;
+}
+header li a{
+    margin: 5px;
+    text-transform: uppercase;
+    color: black;
+    padding: 1rem;
+    display: inline-block;
+}
+/*main*/
+main{
+    margin: 2rem 10rem;    
+    background:#D2D99A;
+    font-family: 'Bebas Neue', cursive;
+    text-align: justify;
+}
+main p{
+    margin:  2rem 5rem;
+    padding-bottom: 1rem;
+}
+main picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 1rem 0 1rem 0;
+}
+main img{
+    width: 600px;
+}
+main .fritura img{
+    width: 400px;
+    height: 500px;
+    margin-left: 1rem;
+}
+main ul{
+    list-style: disc;
+    padding:0 6rem 0 6rem;
+}
+main ul li{
+    font-family: 'Bebas Neue', cursive;
+}
+main i{
+    font-size: 1.5rem;
+}
+main hr{
+    width: 30rem;
+    margin: 0 auto;
+}
+/*final*/
+.footer-final{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+}
+.footer-final a{
+margin: 5px 10px 
+}
+i{
+    color: black;
+    font-size: 2rem;
+    padding-left: 10px;
+}
+i:hover{
+    color:rgba(255, 0, 0, 0.523);
+}
